@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox in CSS </title>
+    <style>
+        .bdka{
+            border: 5px solid magenta;
+            display: flex;
+            /* justify-content: center; this is not used in contsiner */
+            height: 85vh;
+            align-items: center;
+            /* flex-direction: row; */
+            /* flex-wrap: wrap; */
+            /* align-content: center; */
+            flex-wrap: wrap-reverse;
+            gap: 10px;
+            row-gap: 60px;
+            column-gap: 5px;
+
+        }
+        .chotka{
+            background-color: maroon;
+           border: 5px solid maroon;
+           height: 15px;
+           width: 15px;
+           margin: 5px;
+           padding: 15px;
+
+        }
+        .order-1{
+            order: 2;
+        }
+        .order-2{
+            order: 1;
+        }
+        .chotka{
+            flex-grow: 4;
+            flex-shrink: 3;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="bdka">
+        <div class="chotka order-1">A</div>
+        <div class="chotka order-2">B</div>
+        <div class="chotka">C</div>
+        <div class="chotka">D</div>
+        <div class="chotka">E</div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+       <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+        <div class="chotka"></div>
+      
+
+    </div>
+</body>
+</html>
