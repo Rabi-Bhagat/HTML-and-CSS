@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors day 17 </title>
+
+    <style>
+        /* div{
+            background-color: maroon;
+        } */
+    </style>
+    <style>
+        .red{
+            background-color: blue;
+        }
+        #yellow{
+            background-color: green;
+        }
+    </style>
+
+    <!-- child selector  -->
+     <style>
+        div > p{
+            color: burlywood;
+        }
+
+        /* descent delector  */
+        div  p {
+            background-color: rgb(190, 11, 239);
+        }
+
+        /* universal selector  */
+
+        *{
+            margin: 0;
+            padding: 0;
+
+        } 
+        /* pseudo selector  */
+        a:visited{
+            color: yellowgreen;
+        }
+
+        a:link{
+            color: rgb(162, 10, 10);
+        }
+
+        a:active{
+            background-color: violet;
+        }
+
+        a:hover{
+            background-color: red;
+        }
+
+        p:first-child{
+            background-color: darkorange;
+        }
+        
+
+
+
+
+       
+
+
+     </style>
+     
+      
+    
+
+
+</head>
+<body>
+    <div main class="one">
+        <p> i am first p </p>
+        <p> i am second p </p>
+    </div>
+    <div >
+        Hello buddy
+    </div>
+
+    <div class="red">
+        nothing is in your hand
+    </div>
+    
+    <div id="yellow" >
+        i am yellow
+    </div>
+    
+    <div>
+        <p>
+            i am chld selector 
+        </p>
+    </div>
+    <div>
+        <article>
+            <p>
+            i am descent selector 
+        </p>
+        </article>
+         
+    </div>
+    <div>
+        <a href="https://www.google.com"> Welcome to my dream google</a>
+    </div>
+    <div>
+        <a href="https://www.facebook.com2"> facebook</a>
+    </div>
+
+</body>
+</html>

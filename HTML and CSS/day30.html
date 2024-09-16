@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 30(CSS VARIAVBLE)</title>
+    <style>
+
+        :root{
+            --color:purple;
+            --seccolor:rgb(113, 196, 113);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    .new{
+        background-color:var(--color);
+    }
+
+    ul li:first-child{
+        --color:rgb(67, 57, 215);
+        background-color: var(--color);
+    }
+
+    ul li{
+        list-style: none;
+    }
+
+    ul{
+        display: flex;
+    }
+    li{
+        padding: 15px;
+        margin: 15px;
+    }
+
+    .main{
+        background-color: var(--seccolor);
+    }
+
+    </style>
+</head>
+<body>
+    <div class="new">
+         <ul>
+            <li>home</li>
+            <li>office</li>
+            <li>library</li>
+         </ul>
+
+    </div>
+    <div class="main"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ad ipsa perferendis quasi corrupti corporis natus delectus omnis accusantium, officiis odio, doloribus eius magnam, iusto ut illo nesciunt necessitatibus labore rerum maxime harum atque.
+    </div>
+</body>
+</html>
